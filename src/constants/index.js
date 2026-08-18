@@ -21,8 +21,11 @@ import {
   freelance,
   urjalab,
   wildoasis,
+  wildoasisadmin,
   echo,
   devflow,
+  teamflow,
+  duolingo,
 } from "../assets";
 
 export const navLinks = [
@@ -186,26 +189,40 @@ const testimonials = [
 ];
 
 const projects = [
+
   {
-    name: "The Wild Oasis",
+    name: "TeamFlow",
     description:
-      "Luxury hotel application built for browsing cabins, managing reservations, and delivering a polished booking experience powered by Supabase.",
+      "Team workspace app with channels, direct messages, and threaded conversations, enhanced with an AI assistant for Q&A, thread summaries, and message polishing. Authentication is powered by BetterAuth, with email/password login, email invitations, email verification, and forgot/reset password flows.",
     tags: [
       {
         name: "nextjs",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "ai",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "primsa",
         color: "pink-text-gradient",
       },
+      {
+        name: "typescript",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "postgresql",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "betterauth",
+        color: "green-text-gradient",
+      },
     ],
-    image: wildoasis,
-    source_code_link: "https://github.com/Rabinagurung/The-Wild-Oasis",
+    image: teamflow,
+    demo_link: "https://teamflow-pulse.vercel.app/",
+    source_code_link: "https://github.com/Rabinagurung/teamflow-copy",
   },
   {
     name: "Echo",
@@ -230,6 +247,7 @@ const projects = [
       },
     ],
     image: echo,
+    demo_link: "https://echo-web-eight-umber.vercel.app/",
     source_code_link: "https://github.com/Rabinagurung/echo",
   },
   {
@@ -255,7 +273,79 @@ const projects = [
       },
     ],
     image: devflow,
+    demo_link:"https://devoverflowpro.vercel.app/", 
     source_code_link: "https://github.com/Rabinagurung/jsmasterypro_devflow",
+  },
+
+  {
+    name: "The Wild Oasis",
+    description:
+      "Luxury hotel application built for browsing cabins, managing reservations, and delivering a polished booking experience powered by Supabase.",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "supabase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: wildoasis,
+    demo_link: "https://the-wild-oasis-five-dusky.vercel.app/",
+    source_code_link: "https://github.com/Rabinagurung/The-Wild-Oasis",
+  },
+  {
+    name: "The Wild Oasis Admin Portal",
+    description:
+      "Internal admin dashboard for hotel staff to manage cabins, bookings, and guest check-in/check-out, with stats and settings for day-to-day hotel operations.",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "supabase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: wildoasisadmin,
+    demo_link: "https://wild-oasis-alpha-one.vercel.app/login",
+    source_code_link: "https://github.com/Rabinagurung/WildOasis",
+  },
+  {
+    name: "Duolingo Clone",
+    description:
+      "Gamified language-learning app inspired by Duolingo, featuring interactive lessons, progress tracking, and streaks to keep learners engaged.",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "typescript",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "postgresql",
+        color: "green-text-gradient",
+      },
+      {
+        name: "primsa",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: duolingo,
+    demo_link: "https://duolingoclonep1.vercel.app/",
+    source_code_link: "https://github.com/Rabinagurung/Duolingo-clone",
   },
 ];
 

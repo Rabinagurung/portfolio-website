@@ -29,8 +29,11 @@ import freelance from "./company/freelance.svg";
 import urjalab from "./company/urjalab.png";
 
 import wildoasis from "./wildoasis.png";
+import wildoasisadmin from "./wildoasisadmin.png";
 import echo from "./echo.png";
 import devflow from "./devoverflow.png";
+import teamflow from "./teamflow.png";
+import duolingo from "./duolingo.png";
 
 export {
   logo,
@@ -64,6 +67,9 @@ export {
   urjalab,
 
   wildoasis,
+  wildoasisadmin,
   echo,
   devflow,
+  teamflow,
+  duolingo,
 };

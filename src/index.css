@@ -13,6 +13,13 @@
   color-scheme: dark;
 }
 
+.line-clamp-4 {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4;
+  overflow: hidden;
+}
+
 .hash-span {
   margin-top: -100px;
   padding-bottom: 100px;

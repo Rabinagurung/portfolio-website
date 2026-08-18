@@ -1,10 +1,10 @@
-import React, { Suspense, useEffect, useState } from "react";
+import React, { Suspense } from "react";
 import { Canvas } from "@react-three/fiber";
-import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
+import { Bounds, OrbitControls, Preload, useGLTF } from "@react-three/drei";
 
 import CanvasLoader from "../Loader";
 
-const Computers = ({ isMobile }) => {
+const Computers = () => {
   const computer = useGLTF("./desktop_pc/scene.gltf");
 
   return (
@@ -20,34 +20,12 @@ const Computers = ({ isMobile }) => {
       />
       <pointLight position={[3, 2, 2]} color='#FF6B6B' intensity={1.2} />
       <pointLight position={[-3, 1, 3]} color='#2DD4BF' intensity={1} />
-      <primitive
-        object={computer.scene}
-        scale={isMobile ? 0.7 : 0.75}
-        position={isMobile ? [0, -3, -2.2] : [0, -3.25, -1.5]}
-        rotation={[-0.01, -0.2, -0.1]}
-      />
+      <primitive object={computer.scene} rotation={[-0.01, -0.2, -0.1]} />
     </mesh>
   );
 };
 
 const ComputersCanvas = () => {
-  const [isMobile, setIsMobile] = useState(false);
-
-  useEffect(() => {
-    const mediaQuery = window.matchMedia("(max-width: 500px)");
-    setIsMobile(mediaQuery.matches);
-
-    const handleMediaQueryChange = (event) => {
-      setIsMobile(event.matches);
-    };
-
-    mediaQuery.addEventListener("change", handleMediaQueryChange);
-
-    return () => {
-      mediaQuery.removeEventListener("change", handleMediaQueryChange);
-    };
-  }, []);
-
   return (
     <div className='absolute inset-0 h-full w-full cursor-grab active:cursor-grabbing'>
       <Canvas
@@ -58,6 +36,7 @@ const ComputersCanvas = () => {
       >
         <Suspense fallback={<CanvasLoader />}>
           <OrbitControls
+            makeDefault
             autoRotate
             autoRotateSpeed={0.8}
             enableDamping
@@ -68,7 +47,12 @@ const ComputersCanvas = () => {
             maxPolarAngle={Math.PI / 2}
             minPolarAngle={Math.PI / 2}
           />
-          <Computers isMobile={isMobile} />
+          {/* Fits the camera to the model's actual bounding box on
+              mount and on every resize, so it's always fully framed
+              (no cropping, no shrinking) regardless of screen size. */}
+          <Bounds fit clip observe margin={1.3}>
+            <Computers />
+          </Bounds>
         </Suspense>
 
         <Preload all />
