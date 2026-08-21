@@ -318,7 +318,7 @@ const projects = [
       },
     ],
     image: wildoasisadmin,
-    demo_link: "https://wild-oasis-alpha-one.vercel.app/login",
+    demo_link: "https://wild-oasis-alpha-one.vercel.app",
     source_code_link: "https://github.com/Rabinagurung/WildOasis",
   },
   {
