@@ -48,10 +48,13 @@ const About = () => {
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
 
-        I'm a skilled software developer with experience in TypeScript and JavaScript, and expertise in frameworks 
-        and technologies like React, Node.js, Express, and modern web development tools. 
-        I'm a quick learner who collaborates closely with clients to create efficient, scalable, 
-        and user-friendly solutions that solve real-world problems. Let's work together to bring your ideas to life.
+        I'm a full-stack software developer who builds with React, Next.js, TypeScript, Node.js,
+        and PostgreSQL. My experience spans a full-stack developer co-op at Fanshawe College,
+        freelance work building web and mobile products for clients, and a software engineering
+        internship, so I've shipped features across the stack in both team and solo settings.
+        I care about clean, maintainable code and interfaces that hold up under real usage.
+        Right now I'm looking for full-stack roles where I can build product features end to end
+        and keep growing as an engineer.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10 justify-center'>

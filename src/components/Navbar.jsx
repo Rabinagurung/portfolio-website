@@ -60,6 +60,11 @@ const Navbar = () => {
               <a href={`#${nav.id}`}>{nav.title}</a>
             </li>
           ))}
+          <li className='text-secondary hover:text-white text-[18px] font-medium cursor-pointer'>
+            <a href='/resume.pdf' target='_blank' rel='noopener noreferrer'>
+              Resume
+            </a>
+          </li>
         </ul>
 
         <div className='sm:hidden flex flex-1 justify-end items-center'>
@@ -90,6 +95,11 @@ const Navbar = () => {
                   <a href={`#${nav.id}`}>{nav.title}</a>
                 </li>
               ))}
+              <li className='font-poppins font-medium cursor-pointer text-[16px] text-secondary'>
+                <a href='/resume.pdf' target='_blank' rel='noopener noreferrer'>
+                  Resume
+                </a>
+              </li>
             </ul>
           </div>
         </div>
