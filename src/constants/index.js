@@ -274,7 +274,7 @@ const projects = [
     ],
     image: devflow,
     demo_link:"https://devoverflowpro.vercel.app/", 
-    source_code_link: "https://github.com/Rabinagurung/jsmasterypro_devflow",
+    source_code_link: "https://github.com/Rabinagurung/Devoverflow",
   },
 
   {
