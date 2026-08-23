@@ -162,8 +162,8 @@ const experiences = [
 ];
 
 
-const projects = [
-{
+const projects = [ 
+  {
     name: "Echo",
     description:
       "AI-powered SaaS support platform that resolves customer queries instantly, escalates when needed, and gives teams a beautiful embeddable widget.",
