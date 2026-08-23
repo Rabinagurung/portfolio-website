@@ -163,7 +163,32 @@ const experiences = [
 
 
 const projects = [
-
+{
+    name: "Echo",
+    description:
+      "AI-powered SaaS support platform that resolves customer queries instantly, escalates when needed, and gives teams a beautiful embeddable widget.",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "ai",
+        color: "green-text-gradient",
+      },
+      {
+        name: "convex",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "typescript",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: echo,
+    demo_link: "https://echo-web-eight-umber.vercel.app/",
+    source_code_link: "https://github.com/Rabinagurung/echo",
+  },
   {
     name: "TeamFlow",
     description:
@@ -197,32 +222,6 @@ const projects = [
     image: teamflow,
     demo_link: "https://teamflow-pulse.vercel.app/",
     source_code_link: "https://github.com/Rabinagurung/teamflow-copy",
-  },
-  {
-    name: "Echo",
-    description:
-      "AI-powered SaaS support platform that resolves customer queries instantly, escalates when needed, and gives teams a beautiful embeddable widget.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "ai",
-        color: "green-text-gradient",
-      },
-      {
-        name: "convex",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "typescript",
-        color: "orange-text-gradient",
-      },
-    ],
-    image: echo,
-    demo_link: "https://echo-web-eight-umber.vercel.app/",
-    source_code_link: "https://github.com/Rabinagurung/echo",
   },
   {
     name: "Dev Overflow",
