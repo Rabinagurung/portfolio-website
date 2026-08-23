@@ -28,8 +28,8 @@ import fanshawe from "./company/fanshawe.png";
 import freelance from "./company/freelance.svg";
 import urjalab from "./company/urjalab.png";
 
-import wildoasis from "./wildoasis.png";
-import wildoasisadmin from "./wildoasisadmin.png";
+import banffoasis from "./banffoasis.png";
+import banffoasisadmin from "./banffoasisadmin.png";
 import echo from "./echo.png";
 import devflow from "./devoverflow.png";
 import teamflow from "./teamflow.png";
@@ -66,8 +66,8 @@ export {
   freelance,
   urjalab,
 
-  wildoasis,
-  wildoasisadmin,
+  banffoasis,
+  banffoasisadmin,
   echo,
   devflow,
   teamflow,
