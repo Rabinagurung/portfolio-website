@@ -32,7 +32,7 @@
     linear-gradient(90deg, rgba(7, 10, 15, 0.86), rgba(7, 10, 15, 0.38) 55%, rgba(7, 10, 15, 0.92)),
     radial-gradient(circle at 78% 34%, rgba(255, 107, 107, 0.22), transparent 32%),
     radial-gradient(circle at 22% 70%, rgba(45, 212, 191, 0.14), transparent 34%),
-    url("/src/assets/herobg.png");
+    url("./assets/herobg.png");
   background-size: cover, cover, cover, cover;
   background-position: center;
   background-blend-mode: normal, screen, screen, luminosity;
