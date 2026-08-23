@@ -30,12 +30,20 @@ import {
 
 export const navLinks = [
   {
-    id: "about",
-    title: "About",
+    id: "overview",
+    title: "Overview",
   },
   {
-    id: "work",
-    title: "Work",
+    id: "experience",
+    title: "Work Experience",
+  },
+  {
+    id: "skills",
+    title: "Skills",
+  },
+  {
+    id: "projects",
+    title: "Projects",
   },
   {
     id: "contact",
@@ -251,7 +259,7 @@ const projects = [
   },
 
   {
-    name: "The Wild Oasis",
+    name: "The Banff Oasis",
     description:
       "Luxury hotel application built for browsing cabins, managing reservations, and delivering a polished booking experience powered by Supabase.",
     tags: [
@@ -273,7 +281,7 @@ const projects = [
     source_code_link: "https://github.com/Rabinagurung/The-Wild-Oasis",
   },
   {
-    name: "The Wild Oasis Admin Portal",
+    name: "The Banff Oasis Admin Portal",
     description:
       "Internal admin dashboard for hotel staff to manage cabins, bookings, and guest check-in/check-out, with stats and settings for day-to-day hotel operations.",
     tags: [
