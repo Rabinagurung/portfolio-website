@@ -25,8 +25,7 @@ import threejs from "./tech/threejs.svg";
 import zod from "./tech/zod.svg";
 
 import fanshawe from "./company/fanshawe.png";
-import freelance from "./company/freelance.svg";
-import urjalab from "./company/urjalab.png";
+import alternative from "./company/alternative.jpg";
 
 import banffoasis from "./banffoasis.png";
 import banffoasisadmin from "./banffoasisadmin.png";
@@ -62,9 +61,8 @@ export {
   zod,
 
   // company
+  alternative,
   fanshawe,
-  freelance,
-  urjalab,
 
   banffoasis,
   banffoasisadmin,

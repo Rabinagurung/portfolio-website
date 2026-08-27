@@ -48,13 +48,10 @@ const About = () => {
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
 
-        I'm a full-stack software developer who builds with React, Next.js, TypeScript, Node.js,
-        and PostgreSQL. My experience spans a full-stack developer co-op at Fanshawe College,
-        freelance work building web and mobile products for clients, and a software engineering
-        internship, so I've shipped features across the stack in both team and solo settings.
-        I care about clean, maintainable code and interfaces that hold up under real usage.
-        Right now I'm looking for full-stack roles where I can build product features end to end
-        and keep growing as an engineer.
+        I'm a front-end-leaning full-stack developer with 2+ years in React, Next.js,
+        TypeScript, and Node.js. I build content platforms and customer-facing web
+        applications for automotive brands across the Middle East, with a focus on fast pages
+        and CDN-backed delivery.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10 justify-center'>
