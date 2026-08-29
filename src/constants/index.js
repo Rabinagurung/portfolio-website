@@ -134,7 +134,7 @@ const experiences = [
     company_name: "Alternative Agency",
     icon: alternative,
     iconBg: "#000000",
-    date: "Jan 2026 - Present",
+    date: "Jan 2025 - Present",
     points: [
       "Built a custom CMS for the official Nissan Middle East and Ford ME Dealer platforms, letting regional marketing teams publish content themselves instead of routing every change through developers.",
       "Shipped vehicle product sites for Nissan Dubai, including Patrol Nismo, Kicks, Magnite, and Z Nismo, tuning load times and Core Web Vitals in every market.",
@@ -148,7 +148,7 @@ const experiences = [
     company_name: "Fanshawe College",
     icon: fanshawe,
     iconBg: "#FFFFFF",
-    date: "Sep 2024 - Dec 2025",
+    date: "Sep 2024 - Dec 2024",
     points: [
       "Built and maintained internal web applications used by students and staff, owning features end to end from requirements gathering through deployment.",
       "Refactored legacy front-end code into reusable, typed React components, streamlining rendering paths and optimizing assets to improve page load performance.",
