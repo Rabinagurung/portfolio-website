@@ -27,7 +27,7 @@ const Computers = () => {
 
 const ComputersCanvas = () => {
   return (
-    <div className='absolute inset-x-0 bottom-0 top-[260px] sm:top-0 w-full cursor-grab active:cursor-grabbing'>
+    <div className='absolute inset-0  w-full cursor-grab active:cursor-grabbing'>
       <Canvas
         shadows
         dpr={[1, 2]}

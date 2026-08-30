@@ -169,7 +169,7 @@ const projects = [
         color: "blue-text-gradient",
       },
       {
-        name: "Open AI",
+        name: "OpenAI",
         color: "green-text-gradient",
       },
       {
@@ -199,7 +199,7 @@ const projects = [
         color: "blue-text-gradient",
       },
       {
-        name: "Open AI",
+        name: "OpenAI",
         color: "green-text-gradient",
       },
       {
@@ -241,7 +241,7 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "Open AI",
+        name: "OpenAI",
         color: "pink-text-gradient",
       },
       {
