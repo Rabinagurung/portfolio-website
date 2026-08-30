@@ -165,20 +165,24 @@ const projects = [
       "AI-powered SaaS support platform that resolves customer queries instantly, escalates when needed, and gives teams a beautiful embeddable widget.",
     tags: [
       {
-        name: "nextjs",
+        name: "NextJS",
         color: "blue-text-gradient",
       },
       {
-        name: "ai",
+        name: "Open AI",
         color: "green-text-gradient",
       },
       {
-        name: "convex",
+        name: "Convex",
         color: "pink-text-gradient",
       },
       {
-        name: "typescript",
+        name: "Typescript",
         color: "orange-text-gradient",
+      },
+      {
+        name: "Tailwind",
+        color: "blue-text-gradient",
       },
     ],
     image: echo,
@@ -191,11 +195,11 @@ const projects = [
       "Team workspace app with channels, direct messages, and threaded conversations, enhanced with an AI assistant for Q&A, thread summaries, and message polishing. Authentication is powered by BetterAuth, with email/password login, email invitations, email verification, and forgot/reset password flows.",
     tags: [
       {
-        name: "nextjs",
+        name: "NextJS",
         color: "blue-text-gradient",
       },
       {
-        name: "ai",
+        name: "Open AI",
         color: "green-text-gradient",
       },
       {
@@ -214,6 +218,10 @@ const projects = [
         name: "betterauth",
         color: "green-text-gradient",
       },
+      {
+        name: "Tailwind",
+        color: "blue-text-gradient",
+      },
     ],
     image: teamflow,
     demo_link: "https://teamflow-pulse.vercel.app/",
@@ -225,20 +233,24 @@ const projects = [
       "Stack Overflow-inspired developer community platform where users can ask questions, share answers, discover knowledge, and use AI-powered assistance to improve developer workflows.",
     tags: [
       {
-        name: "nextjs",
+        name: "Nextjs",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "MongoDB",
         color: "green-text-gradient",
       },
       {
-        name: "ai",
+        name: "Open AI",
         color: "pink-text-gradient",
       },
       {
-        name: "typescript",
+        name: "Typescript",
         color: "orange-text-gradient",
+      },
+      {
+        name: "Tailwind",
+        color: "blue-text-gradient",
       },
     ],
     image: devflow,
@@ -252,16 +264,20 @@ const projects = [
       "Luxury hotel application built for browsing cabins, managing reservations, and delivering a polished booking experience powered by Supabase.",
     tags: [
       {
-        name: "nextjs",
+        name: "NextJS",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "Supabase",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "Tailwind",
         color: "pink-text-gradient",
+      },
+      {
+        name: "Next Auth",
+        color: "blue-text-gradient",
       },
     ],
     image: banffoasis,
@@ -274,15 +290,15 @@ const projects = [
       "Internal admin dashboard for hotel staff to manage cabins, bookings, and guest check-in/check-out, with stats and settings for day-to-day hotel operations.",
     tags: [
       {
-        name: "nextjs",
+        name: "NextJS",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "Supabase",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "Tailwind",
         color: "pink-text-gradient",
       },
     ],
@@ -296,19 +312,19 @@ const projects = [
       "Gamified language-learning app inspired by Duolingo, featuring interactive lessons, progress tracking, and streaks to keep learners engaged.",
     tags: [
       {
-        name: "nextjs",
+        name: "NextJS",
         color: "blue-text-gradient",
       },
       {
-        name: "typescript",
+        name: "Typescript",
         color: "orange-text-gradient",
       },
       {
-        name: "postgresql",
+        name: "Postgresql",
         color: "green-text-gradient",
       },
       {
-        name: "primsa",
+        name: "Primsa",
         color: "pink-text-gradient",
       },
     ],
