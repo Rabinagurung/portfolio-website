@@ -129,20 +129,20 @@ const technologies = [
 ];
 
 const experiences = [
-  {
-    title: "Front-End Developer",
-    company_name: "Alternative Agency",
-    icon: alternative,
-    iconBg: "#000000",
-    date: "Jan 2025 - Present",
-    points: [
-      "Built a custom CMS for the official Nissan Middle East and Ford ME Dealer platforms, letting regional marketing teams publish content themselves instead of routing every change through developers.",
-      "Shipped vehicle product sites for Nissan Dubai, including Patrol Nismo, Kicks, Magnite, and Z Nismo, tuning load times and Core Web Vitals in every market.",
-      "Migrated legacy JavaScript codebases to TypeScript, introducing shared types and reusable components that reduced runtime errors and improved maintainability.",
-      "Developed internal admin interfaces for client and staff record management, used by the agency team day to day.",
-      "Partnered with back-end and DevOps engineers to speed up asset delivery through an AWS S3 and CloudFront CDN architecture.",
-    ],
-  },
+  // {
+  //   title: "Front-End Developer",
+  //   company_name: "Alternative Agency",
+  //   icon: alternative,
+  //   iconBg: "#000000",
+  //   date: "Jan 2025 - Present",
+  //   points: [
+  //     "Built a custom CMS for the official Nissan Middle East and Ford ME Dealer platforms, letting regional marketing teams publish content themselves instead of routing every change through developers.",
+  //     "Shipped vehicle product sites for Nissan Dubai, including Patrol Nismo, Kicks, Magnite, and Z Nismo, tuning load times and Core Web Vitals in every market.",
+  //     "Migrated legacy JavaScript codebases to TypeScript, introducing shared types and reusable components that reduced runtime errors and improved maintainability.",
+  //     "Developed internal admin interfaces for client and staff record management, used by the agency team day to day.",
+  //     "Partnered with back-end and DevOps engineers to speed up asset delivery through an AWS S3 and CloudFront CDN architecture.",
+  //   ],
+  // },
   {
     title: "Web Developer (Co-op)",
     company_name: "Fanshawe College",

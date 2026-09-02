@@ -48,7 +48,7 @@ const About = () => {
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
 
-        I'm a front-end-leaning full-stack developer with 2+ years in React, Next.js,
+        I'm a front-end-leaning full-stack developer skilled in React, React Native, Next.js,
         TypeScript, and Node.js. I build content platforms and customer-facing web
         applications for automotive brands across the Middle East, with a focus on fast pages
         and CDN-backed delivery.
