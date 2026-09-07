@@ -17,8 +17,9 @@ import {
   figma,
   docker,
   zod,
-  alternative,
+  angular,
   fanshawe,
+  manulife,
   banffoasis,
   banffoasisadmin,
   echo,
@@ -87,6 +88,10 @@ const technologies = [
     icon: reactjs,
   },
   {
+    name: "Angular",
+    icon: angular,
+  },
+  {
     name: "Redux Toolkit",
     icon: redux,
   },
@@ -129,20 +134,21 @@ const technologies = [
 ];
 
 const experiences = [
-  // {
-  //   title: "Front-End Developer",
-  //   company_name: "Alternative Agency",
-  //   icon: alternative,
-  //   iconBg: "#000000",
-  //   date: "Jan 2025 - Present",
-  //   points: [
-  //     "Built a custom CMS for the official Nissan Middle East and Ford ME Dealer platforms, letting regional marketing teams publish content themselves instead of routing every change through developers.",
-  //     "Shipped vehicle product sites for Nissan Dubai, including Patrol Nismo, Kicks, Magnite, and Z Nismo, tuning load times and Core Web Vitals in every market.",
-  //     "Migrated legacy JavaScript codebases to TypeScript, introducing shared types and reusable components that reduced runtime errors and improved maintainability.",
-  //     "Developed internal admin interfaces for client and staff record management, used by the agency team day to day.",
-  //     "Partnered with back-end and DevOps engineers to speed up asset delivery through an AWS S3 and CloudFront CDN architecture.",
-  //   ],
-  // },
+  {
+    title: "Full Stack Developer",
+    company_name: "Manulife",
+    icon: manulife,
+    iconBg: "#FFFFFF",
+    date: "Feb 2025 - Present",
+    points: [
+      "Develop and enhance full-stack insurance applications using React, TypeScript, Node.js, Express.js, and REST APIs, translating business requirements into features that support customer, advisor, and internal user workflows.",
+      "Build responsive policy and account-management interfaces with reusable React components and structured state management, improving consistency across 4+ digital user journeys.",
+      "Design and integrate Node.js and Express.js backend services with RESTful APIs, implementing request validation, asynchronous processing, and structured error handling.",
+      "Integrate OpenAI and Gemini APIs with Node.js services to summarize and enhance user-generated content, delivering AI-assisted features for application users.",
+      "Implement database-driven functionality using SQL, PostgreSQL, MongoDB, and Prisma ORM, developing type-safe data-access logic and CRUD operations for policy and account workflows.",
+      "Strengthen performance and production reliability by optimizing React rendering, API requests, and database queries, and improving logging, exception handling, and API diagnostics.",
+    ],
+  },
   {
     title: "Web Developer (Co-op)",
     company_name: "Fanshawe College",
@@ -150,9 +156,10 @@ const experiences = [
     iconBg: "#FFFFFF",
     date: "Sep 2024 - Dec 2024",
     points: [
-      "Built and maintained internal web applications used by students and staff, owning features end to end from requirements gathering through deployment.",
-      "Refactored legacy front-end code into reusable, typed React components, streamlining rendering paths and optimizing assets to improve page load performance.",
-      "Improved accessibility across the applications by correcting semantic markup to WCAG guidelines.",
+      "Built and maintained internal web applications using React, TypeScript, Node.js, and REST APIs, supporting students, faculty, and administrative staff from requirements through deployment.",
+      "Developed reusable React components and responsive interfaces for academic and administrative workflows, reducing duplicated frontend logic.",
+      "Integrated RESTful API endpoints and worked with SQL and MongoDB to retrieve, update, and validate application data behind internal features.",
+      "Refactored legacy frontend code into typed React components and improved accessibility with semantic HTML, keyboard navigation, and WCAG-aligned practices.",
     ],
   },
 ];

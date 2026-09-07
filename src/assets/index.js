@@ -23,8 +23,10 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 import zod from "./tech/zod.svg";
+import angular from "./tech/angular.png";
 
 import fanshawe from "./company/fanshawe.png";
+import manulife from "./company/manulife.png";
 import alternative from "./company/alternative.jpg";
 
 import banffoasis from "./banffoasis.png";
@@ -59,10 +61,12 @@ export {
   typescript,
   threejs,
   zod,
+  angular,
 
   // company
   alternative,
   fanshawe,
+  manulife,
 
   banffoasis,
   banffoasisadmin,

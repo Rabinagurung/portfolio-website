@@ -48,10 +48,11 @@ const About = () => {
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
 
-        I'm a front-end-leaning full-stack developer skilled in React, React Native, Next.js,
-        TypeScript, and Node.js. I build content platforms and customer-facing web
-        applications for automotive brands across the Middle East, with a focus on fast pages
-        and CDN-backed delivery.
+        I'm a Full Stack Developer with 2+ years of experience building and maintaining
+        responsive web applications with React, TypeScript, Node.js, Express, SQL, and
+        MongoDB across the insurance and education domains. I focus on reusable frontend
+        components, scalable backend services, and end-to-end feature delivery — translating
+        business requirements into clean, maintainable MERN and MEAN stack solutions.
       </motion.p>
 
       <div className='hidden mt-20 xs:flex flex-wrap gap-10 justify-center'>
