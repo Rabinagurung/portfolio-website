@@ -19,7 +19,6 @@ import {
   zod,
   angular,
   fanshawe,
-  manulife,
   banffoasis,
   banffoasisadmin,
   echo,
@@ -137,7 +136,6 @@ const experiences = [
   {
     title: "Full Stack Developer",
     company_name: "Manulife",
-    icon: manulife,
     iconBg: "#FFFFFF",
     date: "Feb 2025 - Present",
     points: [
