@@ -134,14 +134,14 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Full Stack Developer",
+    title: "Web Developer",
     company_name: "Manulife",
     iconBg: "#FFFFFF",
     date: "Feb 2025 - Present",
     points: [
       "Develop and enhance full-stack insurance applications using React, TypeScript, Node.js, Express.js, and REST APIs, translating business requirements into features that support customer, advisor, and internal user workflows.",
       "Build responsive policy and account-management interfaces with reusable React components and structured state management, improving consistency across 4+ digital user journeys.",
-      "Design and integrate Node.js and Express.js backend services with RESTful APIs, implementing request validation, asynchronous processing, and structured error handling.",
+      "Design and integrate Node.js and Express.js backend services with RESTful APIs, implementing request validation, authentication flows, asynchronous processing, and structured error handling.",
       "Integrate OpenAI and Gemini APIs with Node.js services to summarize and enhance user-generated content, delivering AI-assisted features for application users.",
       "Implement database-driven functionality using SQL, PostgreSQL, MongoDB, and Prisma ORM, developing type-safe data-access logic and CRUD operations for policy and account workflows.",
       "Strengthen performance and production reliability by optimizing React rendering, API requests, and database queries, and improving logging, exception handling, and API diagnostics.",
@@ -158,6 +158,19 @@ const experiences = [
       "Developed reusable React components and responsive interfaces for academic and administrative workflows, reducing duplicated frontend logic.",
       "Integrated RESTful API endpoints and worked with SQL and MongoDB to retrieve, update, and validate application data behind internal features.",
       "Refactored legacy frontend code into typed React components and improved accessibility with semantic HTML, keyboard navigation, and WCAG-aligned practices.",
+    ],
+  },
+  {
+    title: "Front End Developer",
+    company_name: "CodeNest Solutions",
+    iconBg: "#FFFFFF",
+    date: "Apr 2022 - Jul 2023",
+    points: [
+      "Implemented responsive, client-facing web interfaces using JavaScript, React, HTML5, and CSS3, translating functional requirements into reusable frontend experiences.",
+      "Built reusable React components and structured responsive layouts, standardizing common UI patterns across application screens for consistent frontend delivery.",
+      "Integrated frontend applications with RESTful APIs, handling JSON responses, asynchronous requests, form submissions, and validation to connect user interactions with backend data.",
+      "Refactored JavaScript and React code to simplify component structure, remove duplicated implementation, and improve maintainability across responsive web interfaces.",
+      "Debugged frontend defects and API integration issues using browser developer tools and Git-based version control to maintain stable code throughout feature development.",
     ],
   },
 ];
