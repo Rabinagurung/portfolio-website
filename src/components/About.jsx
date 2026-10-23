@@ -48,12 +48,13 @@ const About = () => {
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
 
-        I'm a Full Stack Developer with 3+ years of experience building and maintaining
-        responsive web applications with React, TypeScript, Node.js, Express, SQL, and
-        MongoDB across insurance, education, and client-facing domains. I focus on reusable
-        frontend components, scalable backend services, AI-powered integrations, and
-        end-to-end feature delivery — translating business requirements into clean,
-        maintainable MERN and MEAN stack solutions.
+        I'm a Full Stack Engineer with 3+ years of experience building responsive web
+        applications, reusable frontend components, backend services, and REST API
+        integrations with React.js, TypeScript, Python, JavaScript, and SQL. I focus on
+        frontend performance, API development, relational and NoSQL databases, and
+        automated testing with Pytest, Jest, and React Testing Library — working with
+        development and QA teams across Canada and India to ship maintainable, reliable
+        software using Agile practices.
       </motion.p>
 
       <div className='hidden mt-20 xs:flex flex-wrap gap-10 justify-center'>

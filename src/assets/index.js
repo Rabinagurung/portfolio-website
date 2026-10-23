@@ -24,6 +24,10 @@ import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 import zod from "./tech/zod.svg";
 import angular from "./tech/angular.png";
+import python from "./tech/python.svg";
+import fastapi from "./tech/fastapi.svg";
+import pytest from "./tech/pytest.svg";
+import jest from "./tech/jest.svg";
 
 import fanshawe from "./company/fanshawe.png";
 import manulife from "./company/manulife.png";
@@ -62,6 +66,10 @@ export {
   threejs,
   zod,
   angular,
+  python,
+  fastapi,
+  pytest,
+  jest,
 
   // company
   alternative,
